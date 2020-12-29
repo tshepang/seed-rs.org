@@ -187,7 +187,7 @@ There is only one `bool` (field `completed`) and it doesn't make sense to rewrit
 ### `ID` and `todos`
 
 We need to discuss `ID` together with `todos: Vec<Todo>` because we will be doing many `todos` operations associated with chosen `ID`s. There are some known facts:
-- We have to be able to remove any todo from the list;
+   - We have to be able to remove any todo from the list;
 - Push a new todo at the end;
 - Filter according the `Todo` field `completed`.
 - Todos have to keep it's ordering (from the oldest).
